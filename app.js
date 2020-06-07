@@ -13,7 +13,6 @@ calcKeys.forEach(key => {
     const keyValue = key.getAttribute('data-num');
     displayValue += keyValue;
    displayInput.textContent = displayValue;
-  //  alert(displayInput.textContent);
   })
 })
 
@@ -29,8 +28,7 @@ function equalsBtn() {
 
 function deleteBtn() {
   displayValue = displayValue.substring(0, displayValue.length - 1);
-displayInput.textContent = displayValue;
-console.log(displayValue);
+  displayInput.textContent = displayValue;
 }
 
 function clearBtn() {
