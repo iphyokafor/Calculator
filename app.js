@@ -6,13 +6,18 @@ const btnClear = document.querySelector('.btn-clear');
 const btnDelete = document.querySelector('.btn-delete');
 
 let displayValue ="";
+let maxLength = 15;
 
 // Event listeners
 calcKeys.forEach(key => {
   key.addEventListener('click', () => {
     const keyValue = key.getAttribute('data-num');
     displayValue += keyValue;
+    if (displayValue.length > maxLength){
+      alert ('You have exceeded the input limit');
+    } else {
    displayInput.textContent = displayValue;
+  }
   })
 })
 

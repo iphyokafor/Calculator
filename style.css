@@ -7,9 +7,7 @@
 body {
   background-image: linear-gradient(to right top, #070808, rgb(40, 73, 69));
   background-repeat: no-repeat;
-  /* font-family: "Poppins", sans-serif; */
   min-height: 100vh;
-  /* color: white; */
 }
 
 .calculator-card {
@@ -98,22 +96,3 @@ button:hover {
   grid-column-gap: 10px;
   padding: 5px;
 }
-
-/* button {
-  background: black;
-  border-style: outset;
-  border-width: 4px;
-  border-color: white;
-  border-radius: 8px;
-  color: white;
-  padding: 8px 15px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-flex;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  min-width: 500px;
-  min-height: 100px;
-} */
