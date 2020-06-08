@@ -6,7 +6,7 @@ const btnClear = document.querySelector('.btn-clear');
 const btnDelete = document.querySelector('.btn-delete');
 
 let displayValue ="";
-let maxLength = 15;
+let maxLength = 13;
 
 // Event listeners
 calcKeys.forEach(key => {
